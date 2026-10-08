@@ -197,3 +197,74 @@ A big thank you to the Helldivers 2 modding community. The mods and findings peo
   holes and fabricators); the box in the Armory and on the mission loadout screen.
 - **The first release:** helmets and capes showed their set's passive in the Armory, but the game only applied the body
   armour's passive in missions.
+
+  # Liber-Tea-Enjoyer's Unlimited Swimming v1
+
+**Never drown again.** In the base game a Helldiver in deep water drowns after about 5 seconds. This mod sets the drowning
+timer to about 28 hours, so in practice you never drown: swim across lakes and rivers as long as you like, then climb out.
+
+## What it changes
+
+| | Base game | With this mod |
+|---|---|---|
+| Time in deep water before a Helldiver drowns | 5 seconds | 100,000 seconds (about 28 hours) |
+
+That is the only change.
+
+- **Only Helldivers.** Vehicles (FRVs, exosuits, tanks) and enemies have their own drowning settings, which this mod does
+  not touch: in deep water they behave as in the base game.
+- **Everything else about water is the game's own:** floating, swimming speed and the way water slows you are not changed.
+- The game's **"You are drowning" warning** is not changed either, so it may still appear in deep water. It is only a
+  warning now: the timer behind it runs for about 28 hours.
+- **Known limit:** if you end up in deep water with no way to climb out, you float there instead of drowning.
+
+## Who needs it
+
+**Install it on your own PC.** It changes the drowning timer in your own game.
+
+Not confirmed yet: whether it also covers squadmates without the mod when you host, and whether it still covers you when
+you join a host who does not have it. Until that is tested, the safe way is for everyone who wants it to install it.
+Friends without the mod can still join you, and you can still join them.
+
+## Requirements
+
+- **Bingus Shared Loader** (the mod runs through it; keep it enabled).
+- A mod manager **HD2 Arsenal**.
+
+## Install
+
+1. If you don't have them yet, install **Bingus Shared Loader** and a mod manager (**HD2 Arsenal**).
+   All of them are on Nexus Mods.
+2. Add `Liber-Tea-Enjoyer's Unlimited Swimming v1.zip` to your mod manager.
+3. Enable it, keep Bingus Shared Loader enabled too, and deploy.
+4. Start the game, find some deep water and go for a swim.
+
+## Uninstall
+
+Disable or remove it in your mod manager and deploy again. Nothing is saved to your account or your save data. The change
+lives in the game's memory while the game runs and is gone when you close it. The mod writes one small log file
+(`LTE-unlimited-swimming.log` in the Bingus loader's log folder), replaced each time you start the game.
+
+## Compatibility
+
+- **Vanilla Plus Megapack, including Shallow Water Diving:** works alongside it. Shallow Water Diving checks the
+  Helldiver's drowning settings before it runs, but only the two numbers that place the drowning point on your body. This
+  mod changes a different number (the timer), so those checks pass and shallow-water dives work as before (tested in game
+  with Shallow Water Diving on).
+- **Other mods that change the drowning time:** use only one of them. This mod never writes over a value it does not
+  recognise, so it will not fight another mod for it.
+- **Game version:** made for game version 1.8.46015. Before changing anything the mod checks that the value it expects is
+  there. If a game update moves or changes it, the mod changes nothing rather than the wrong thing.
+- **No menu and no settings.** It is always on.
+
+## Thanks
+
+- **shalzuth's HelldiversData** (on GitHub), whose published descriptions of the game's settings named the drowning timer.
+- **CowboyBingus**, for **Bingus Shared Loader**, which this mod runs through, and for **Shallow Water Diving**, whose
+  check of the same Helldiver record confirmed we had the right one.
+- And the Helldivers 2 modding community.
+
+## Version history
+
+- **v1:** first release.
+
