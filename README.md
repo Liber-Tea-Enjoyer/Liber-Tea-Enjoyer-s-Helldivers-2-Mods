@@ -105,6 +105,8 @@ LTEd's.
   armour penetration on all four angles, magazine and spare ammo, fire rate, handling, reload (from empty and partial, on guns that have
   both), status effects and more. **Every number the box shows can be changed**, not only the ones LTEd changes. **ADVANCED STATS EDITING**
   opens every other number the item has. A number shared with other items asks first and names them.
+- **A SOUND line** on every weapon: how loud it is and how far enemies hear it; it changes with the fitted attachments and ammo.
+- **RESET THIS ... TO DEFAULT** puts one item back; your edits are saved between sessions.
 
 **WAITING ON HELLFORGE:** the G-11 Caltrops (Scope of Authority warbond) is inside HellForge's copy of the game but stays locked:
 HellForge's item list was made before it came out, so even Profile > Account sync does not give it to its owners, and HellForge's mod kit
@@ -121,9 +123,6 @@ SMG-37 Defender, SMG-72 Pummeler, SMG/FLAM-34 Stoker, SG-225 Breaker, SG-225IE B
 **KNOWN ISSUE (being fixed in v0.4.2):** the SG-22 Bushwhacker (a secondary in the game) sits in LTEd's PRIMARIES part: on the SECONDARIES
 list its box is the PRIMARIES box, and its changes go with PRIMARIES (its option on the Mods page and TOGGLE CHANGES), not SECONDARIES.
 
-- **A SOUND line** on every weapon: how loud it is and how far enemies hear it; it changes with the fitted attachments and ammo.
-- **RESET THIS ... TO DEFAULT** puts one item back; your edits are saved between sessions.
-
 ### Attachments (Armory > a gun > Customize)
 
 - **The attachment editor:** pick each attachment and change its numbers.
@@ -132,16 +131,15 @@ list its box is the PRIMARIES box, and its changes go with PRIMARIES (its option
 - **Underbarrels on more guns:** give one of 14 guns the grenade launcher, the shotgun or the flamethrower underbarrel, and it gets the
   switch to fire it, like the One-Two, the Stoker and the Arbitrator.
 
+<img width="1920" height="1208" alt="Edit Attachments" src="https://github.com/user-attachments/assets/c27cb842-7e44-4c75-9022-677fda91d429" />
+
+<img width="1920" height="1208" alt="Functional Underbarrel Options" src="https://github.com/user-attachments/assets/a5acb81f-4cd4-4378-9e57-d658f578a2f3" />
+
 **WAITING ON HELLFORGE:** HellForge's mod kit cannot add a part to a gun's own list in the game's Customize screen yet (it has no
 attachment content type, and that list comes from HellForge's own item list). That is why COMES WITH changes the part a gun is built with
 (the "-" setup) and REPLACE THIS PART WITH changes a part on every gun that uses it. With an attachment content type, parts could join a
 gun's own list, sidearms' too, and be picked there like its own parts. We have asked SkyeShade, HellForge's maker, about it; if you would
 like it too, let him know.
-
-<img width="1920" height="1208" alt="Edit Attachments" src="https://github.com/user-attachments/assets/c27cb842-7e44-4c75-9022-677fda91d429" />
-
-<img width="1920" height="1208" alt="Functional Underbarrel Options" src="https://github.com/user-attachments/assets/a5acb81f-4cd4-4378-9e57-d658f578a2f3" />
-
 
 ### Stratagems (Ship Management > Stratagems)
 
@@ -149,10 +147,10 @@ like it too, let him know.
 - **SHOW HIDDEN STRATAGEMS** (the bottom bar) shows the mission-only stratagems so their numbers can be edited too.
 - **EDIT ARMOR** on every vehicle (Exosuits, FRVs, the Bastion and the others): every part's health and armour, with the parts' pictures.
 
+<img width="1920" height="1208" alt="Edit Stratagems" src="https://github.com/user-attachments/assets/55da6001-fd37-43fb-9113-62ce93d96577" />
+
 **KNOWN ISSUE (being fixed in v0.4.2):** in the stratagems box, ADVANCED STATS EDITING makes the box disappear instead of opening the
 advanced numbers. Leave Ship Management and come back to get the box back.
-
-<img width="1920" height="1208" alt="Edit Stratagems" src="https://github.com/user-attachments/assets/55da6001-fd37-43fb-9113-62ce93d96577" />
 
 ### Switch it all back any time: TOGGLE CHANGES
 
@@ -161,11 +159,11 @@ advanced numbers. Leave Ship Management and come back to get the box back.
 - On every LTEd change you can see what it does and put it back: each box shows VANILLA or ON / OFF lines for it.
 - The welcome window asks the same question at the start: **PLAY WITH THE LIBER-TEA-EDITION CHANGES** or **PLAY WITH VANILLA SETTINGS**.
 
+<img width="1920" height="1208" alt="Toggle Changes" src="https://github.com/user-attachments/assets/b3f65c67-5556-48f2-9c58-819e72c1068c" />
+
 **KNOWN ISSUE (being fixed in v0.4.2):** once you tick DO NOT SHOW AGAIN in the welcome window, nothing in the game brings it back yet
 (BRING BACK ALL OVERLAYS does not). Until then: close the game, open `Liber-Tea-Edition-settings.log` in LTEd's folder (see Files it
 writes) and delete the line `welcome.hide = yes`.
-
-<img width="1920" height="1208" alt="Toggle Changes" src="https://github.com/user-attachments/assets/b3f65c67-5556-48f2-9c58-819e72c1068c" />
 
 ### Spawns: three times the enemies, or anything you like (SPAWN EDITS)
 
@@ -208,6 +206,8 @@ writes) and delete the line `welcome.hide = yes`.
 - The MISSION TIMER and COMMANDO TIMER settings are here too.
 - Friends who join need no mod for it.
 
+<img width="1920" height="1208" alt="Edit Missions" src="https://github.com/user-attachments/assets/859798e9-27f0-42c9-bfea-3c05c5d229d7" />
+
 **KNOWN ISSUE (being fixed in v0.4.2):** the editor still lets you pick things the game never puts together, and such a search ends with
 NO MATCH IN 300 TRIES:
 - a Terminid or Automaton operation holds at most two standard missions (its third is an ERADICATE mission or BLITZ: SEARCH AND DESTROY),
@@ -220,18 +220,12 @@ NO MATCH IN 300 TRIES:
 "FOUND IN 0 TRIES" means the operation was already on your war table: open the same planet, set the same difficulty and pick the
 operation the line names.
 
-<img width="1920" height="1208" alt="Edit Missions" src="https://github.com/user-attachments/assets/859798e9-27f0-42c9-bfea-3c05c5d229d7" />
-
 ### Progression: mastery, titles and camo picks (PROGRESSION)
 
 - **Weapon mastery:** every kill with a weapon counts (yours only). The more kills, the better it handles: ergonomics, sway, recoil,
   spread, reload and draw time improve step by step (throwables throw farther, melee weapons draw faster). Damage is never raised.
 - **Titles** for enemy kills (for example CHARGER MURDERER at 100 Charger kills). Pick one with **SELECT TITLE** and wear it: it shows on
   LTEd's own screens (the PROGRESSION window, the TITLE page box and the mission report).
-
-**WAITING ON HELLFORGE:** Liber-Tea-Edition titles show only on LTEd's own screens because HellForge's mod kit cannot add new titles to the
-game yet (it has no title content type). If it gains one, the titles you earn could sit in the game's own TITLE list and on your player
-card. We have asked SkyeShade, HellForge's maker, about it; if you would like it too, let him know.
 
 - **The PROGRESSION window** (Armory > Character) with every weapon's picture and mastery, an **after-mission screen** back on the ship,
   and **milestone pop-ups** (never during a mission).
@@ -248,6 +242,10 @@ card. We have asked SkyeShade, HellForge's maker, about it; if you would like it
 
 <img width="1920" height="1208" alt="Earn Titles" src="https://github.com/user-attachments/assets/92e08a7c-dfea-41e5-9d2c-46a49af66847" />
 
+**WAITING ON HELLFORGE:** Liber-Tea-Edition titles show only on LTEd's own screens because HellForge's mod kit cannot add new titles to the
+game yet (it has no title content type). If it gains one, the titles you earn could sit in the game's own TITLE list and on your player
+card. We have asked SkyeShade, HellForge's maker, about it; if you would like it too, let him know.
+
 ### Camos
 
 - **LTEd's own camos, made live in the game:** 30 kinds x 40 colour sets x endless variations; **RE-ROLL** for a new variation, pick the
@@ -256,10 +254,6 @@ card. We have asked SkyeShade, HellForge's maker, about it; if you would like it
   attachments wear it in the Armory, on the ship and in missions.
 - **Support weapons and other stratagem objects** (backpacks, sentries, emplacements, Eagle-1): the **LIBER-TEA-EDITION CAMOS** button in
   their stratagem box.
-
-**KNOWN ISSUE:** 7 weapons have no LTEd camo options yet: the AR-2 Coyote, R-4 Hyena, DBS-2 Double Freedom, FLAM-40 Flamethrower, MG-206
-Heavy Machine Gun, MG-43 Machine Gun and RS-422 Railgun. Why: their painted parts carry only the kind of paint every gun shares, with no
-camo slot of their own, so LTEd's camos have nothing of theirs to paint yet. We are working on a way to give them camos too.
 
 - **Vehicles, Pelican-1 and the hellpod:** **LIBER-TEA-EDITION CAMOS** on Ship Management's VEHICLE CUSTOMIZATION tab, with **COVERAGE**:
   MINIMALIST, NORMAL, HEAVY or COMPLETE (how much of the vehicle takes the camo).
@@ -278,11 +272,15 @@ camo slot of their own, so LTEd's camos have nothing of theirs to paint yet. We 
 
 <img width="1920" height="1208" alt="Stratagem Camo In-Game" src="https://github.com/user-attachments/assets/482ee2c0-ea29-480f-b4de-2846caccf595" />
 
-### Passives: your helmet and cape count (PASSIVES)
+**KNOWN ISSUE:** 7 weapons have no LTEd camo options yet: the AR-2 Coyote, R-4 Hyena, DBS-2 Double Freedom, FLAM-40 Flamethrower, MG-206
+Heavy Machine Gun, MG-43 Machine Gun and RS-422 Railgun. Why: their painted parts carry only the kind of paint every gun shares, with no
+camo slot of their own, so LTEd's camos have nothing of theirs to paint yet. We are working on a way to give them camos too.
+
+### Passives: your helmet and cape count plus native transmog (PASSIVES)
 
 - In the normal game only your body armour's passive does anything. Here **every helmet and cape carries the passive of its armour set**,
   and 1, 2 or 3 pieces with the same passive give stronger values; different passives add up (with a few ceilings).
-- **The passives box** (Armory > Armory) shows what your set gives; the passive name of each piece is a drop-down to pick another one.
+- **The passives box** (Armory > Armory) shows what your set gives; the passive name of each piece is a drop-down to pick another one. Essentially this is a native version of transmog.
 - **EDIT PASSIVE STATS:** every number of every passive at 1, 2 and 3 pieces.
 - With Vanilla Plus's Match Your Colors: **COLOR MATCH**, **COLOR MATCH WEAPONS**, **CAPE COLOR** (OFF, ON, NO CAPE), MATERIALS, PAINT and
   RECOLOR HOODS buttons on the box.
