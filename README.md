@@ -44,7 +44,7 @@ Problems we know about are marked **KNOWN ISSUE** right under the feature they b
 
 (Instead of Add mods... you can copy the zip into `Documents\HellForge\mods\`; the Mods page shows it at once.)
 
-When you start the game you will be greeted by the welcome window. You can choose to play with my changes to the game which deliver on the games promise: Overpowered Weapons Against Overwhelming Odds. All weapons are buffed to perfection while all enemy spawns are ramped up by 3x, along with many other changes to every aspect of the game. If you do not wish to play the Liber-Tea-Edition of the game and wish to make your own changes from scratch, you can click "Play with Vanilla Settings" and you have the Liber-Tea to make all your own changes. Play the way you want.
+When you start the game you will be greeted by the welcome window. You can choose to play with my changes to the game which deliver on the game's promise: Overpowered Weapons Against Overwhelming Odds. All weapons are buffed to perfection while all enemy spawns are ramped up by 3x, along with many other changes to every aspect of the game. If you do not wish to play the Liber-Tea-Edition of the game and wish to make your own changes from scratch, you can click "Play with Vanilla Settings" and you have the Liber-Tea to make all your own changes. Play the way you want.
 
 <img width="1920" height="1208" alt="Welcome Window" src="https://github.com/user-attachments/assets/226a16a2-4fc3-47ed-8fee-6a320bfea6ab" />
 
