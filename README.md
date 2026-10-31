@@ -152,19 +152,6 @@ like it too, let him know.
 **KNOWN ISSUE (being fixed in v0.4.2):** in the stratagems box, ADVANCED STATS EDITING makes the box disappear instead of opening the
 advanced numbers. Leave Ship Management and come back to get the box back.
 
-### Switch it all back any time: TOGGLE CHANGES
-
-- **TOGGLE CHANGES** (Armory > Character): put every part, or one part, back to the game's own numbers, and bring Liber-Tea-Edition back
-  later. A pop-up asks whether to keep all, some or none of your own edits. You can also hide and bring back each part's boxes.
-- On every LTEd change you can see what it does and put it back: each box shows VANILLA or ON / OFF lines for it.
-- The welcome window asks the same question at the start: **PLAY WITH THE LIBER-TEA-EDITION CHANGES** or **PLAY WITH VANILLA SETTINGS**.
-
-<img width="1920" height="1208" alt="Toggle Changes" src="https://github.com/user-attachments/assets/b3f65c67-5556-48f2-9c58-819e72c1068c" />
-
-**KNOWN ISSUE (being fixed in v0.4.2):** once you tick DO NOT SHOW AGAIN in the welcome window, nothing in the game brings it back yet
-(BRING BACK ALL OVERLAYS does not). Until then: close the game, open `Liber-Tea-Edition-settings.log` in LTEd's folder (see Files it
-writes) and delete the line `welcome.hide = yes`.
-
 ### Spawns: three times the enemies, or anything you like (SPAWN EDITS)
 
 - **LTEd starts at three times the enemies:** patrols three times as often and as big, bug breaches and bot drops three times as often and
@@ -197,6 +184,19 @@ writes) and delete the line `welcome.hide = yes`.
 - Enemy changes work in missions you host.
 
 <img width="1920" height="1208" alt="Edit Enemy Stats" src="https://github.com/user-attachments/assets/4fa362c5-84af-4177-9ab2-bfab2f20aded" />
+
+### Switch it all back any time: TOGGLE CHANGES
+
+- **TOGGLE CHANGES** (Armory > Character): put every part, or one part, back to the game's own numbers, and bring Liber-Tea-Edition back
+  later. A pop-up asks whether to keep all, some or none of your own edits. You can also hide and bring back each part's boxes.
+- On every LTEd change you can see what it does and put it back: each box shows VANILLA or ON / OFF lines for it.
+- The welcome window asks the same question at the start: **PLAY WITH THE LIBER-TEA-EDITION CHANGES** or **PLAY WITH VANILLA SETTINGS**.
+
+<img width="1920" height="1208" alt="Toggle Changes" src="https://github.com/user-attachments/assets/b3f65c67-5556-48f2-9c58-819e72c1068c" />
+
+**KNOWN ISSUE (being fixed in v0.4.2):** once you tick DO NOT SHOW AGAIN in the welcome window, nothing in the game brings it back yet
+(BRING BACK ALL OVERLAYS does not). Until then: close the game, open `Liber-Tea-Edition-settings.log` in LTEd's folder (see Files it
+writes) and delete the line `welcome.hide = yes`.
 
 ### The Mission Editor (MISSIONS, host only)
 
